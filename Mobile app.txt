@@ -24,13 +24,7 @@ Mobile app
       Wish list - 4-8h 
     Log out 1-2 h 
 
-  NOTIFICATIONS 
-    PUSH notifications - 80h 
-      iOS 
-      Android 
-      Actions 
-        Open order 
-
+  
   HOME 
     Main screen - cannot estimate without prototype 
     Advertisement - is it needed ??? 
