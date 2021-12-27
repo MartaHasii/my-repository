@@ -1,0 +1,96 @@
+Mobile app 
+
+  USER 
+    Welcome screen 
+      Country selection - 8h 
+      Authorization (basic Saleor auth) - 4-8 h 
+      Registration 
+        Email+password, no email verification - 4-6 h 
+      Password reset - 3-6 h 
+      Language selection - 2-4h 
+    Profile 
+      Delivery address management 
+        Listing - 3-5h 
+        Add - 5-10h 
+        Edit - 2-4h 
+        Delete - 2h 
+        Set as default - 2-3h 
+      Payment methods (ability to choose) - 6-12h 
+      User info - 4-8 h 
+      Change password - 3-6 h (same process on backend as Password reset) 
+      Settings 
+        Language settings - 2-4h 
+        Notifications 
+      Wish list - 4-8h 
+    Log out 1-2 h 
+
+  NOTIFICATIONS 
+    PUSH notifications - 80h 
+      iOS 
+      Android 
+      Actions 
+        Open order 
+
+  HOME 
+    Main screen - cannot estimate without prototype 
+    Advertisement - is it needed ??? 
+    Discounted products - 4-8h 
+
+  SEARCH 
+    Search results - 4-8 h 
+    Widget - 2-3 h 
+
+  CATALOG 
+    Category listing - 2-4h 
+    Filtering - 2-4 h 
+    Sorting - 2-4 h 
+
+  COLLECTION 
+    Collection listing - 2-4 h 
+
+  PRODUCT 
+    View (title & description) - 4h 
+    Gallery 
+      Photo - 3-6h 
+      Video - 3-6h 
+      AR - 40h for research + ~40h for implementation 
+    Variants - 3-6h 
+    Attributes - 2-5h 
+    Financial 
+      Price - 1h 
+      Discount - 2h 
+      Taxes - 1h 
+    Actions 
+      Add to cart - 3-6h 
+      Order now - 3-6h 
+      Add to wishlist - 3-6h 
+
+  CART 
+    View - 4-6h 
+    Quantities - 5-10h 
+    Actions 
+      Delete item - 1h 
+      Proceed to checkout - 1h 
+      View details - 1h 
+
+  ORDER 
+    Checkout 
+      View (title, variant, price) - 2-4h 
+      Delivery address selection - 3-6h 
+      Suplementary services - 3-6h 
+      Payment method - 3-6h 
+      Vouchers/Promo codes - 4-8h 
+    Payment (Mollie integr) 
+      Cancel (?) 
+    History 
+      Listing - 5-10h 
+      Order view - 5-10h 
+      Invoice preview (PDF) - 5-10h; backend needed ??? 
+      Actions 
+        Refund/return - 1h 
+        Cancel (?) 
+
+  MENU 
+    ??? Navigation - up to 60h 
+    User (user icon, user name, go to profile) - 3-6h 
+    Footer (log out, privacy policy, FAQ) - 3-6h 
